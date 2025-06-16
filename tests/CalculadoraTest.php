@@ -7,7 +7,7 @@ class CalculadoraTest extends TestCase
     public function testSoma()
     {
         $calc = new Calculadora();
-        $this->assertEquals(10, $calc->somar(2, 3));
+        $this->assertEquals(5, $calc->somar(2, 3));
     }
 
     public function testSubtracao()

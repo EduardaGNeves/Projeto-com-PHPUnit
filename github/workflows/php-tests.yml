@@ -8,7 +8,7 @@ on:
 
 jobs:
   phpunit:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
 
     steps:
       - name: Clonar o repositório
@@ -23,4 +23,4 @@ jobs:
         run: composer install
 
       - name: Executar testes com PHPUnit
-        run: vendor/bin/phpunit tests
+        run: php vendor/bin/phpunit tests
